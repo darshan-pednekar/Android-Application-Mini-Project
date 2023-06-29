@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+
+
+    android:backgroundTint="#90FFFFFF"
+    android:backgroundTintMode="src_over"
+    tools:context=".MainActivity">
+
+    <!--    android:id="@+id/gridLayout2"-->
+    <!--    android:layout_width="0dp"-->
+    <!--    android:layout_height="248dp"-->
+    <!--    android:layout_marginTop="41dp"-->
+    <!--&lt;!&ndash;    android:layout_marginBottom="158dp"&ndash;&gt;-->
+    <!--    app:columnCount="2"-->
+    <!--    app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/textWelcome"-->
+    <!--    app:rowCount="2">-->
+
+
+    <!--        <Button-->
+    <!--            android:id="@+id/butMult"-->
+    <!--            android:alpha="0"-->
+    <!--            android:backgroundTint="#880E4F"-->
+    <!--            android:gravity="fill"-->
+    <!--            android:onClick="goMult"-->
+    <!--            android:text="Multiplication"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textColor="@color/textC"-->
+    <!--            android:visibility="visible"-->
+    <!--            app:layout_columnWeight="1"-->
+    <!--            app:layout_rowWeight="1"-->
+    <!--            tools:ignore="RtlCompat" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/butDiv"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:alpha="0"-->
+    <!--            android:backgroundTint="#1B5E20"-->
+    <!--            android:gravity="fill"-->
+    <!--            android:onClick="goDiv"-->
+    <!--            android:text="Division"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textColor="@color/textC"-->
+    <!--            android:visibility="visible"-->
+    <!--            app:layout_columnWeight="1"-->
+    <!--            app:layout_rowWeight="1"-->
+    <!--            tools:ignore="RtlCompat" />-->
+    <!--    </androidx.gridlayout.widget.GridLayout>-->
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
+        android:layout_marginEnd="132dp"
+
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Welcome to \n Brain Trainer!"
+        android:textAlignment="center"
+        android:textColor="#672F06"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/butAdd"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+
+        android:backgroundTint="#FAE0C9"
+        android:gravity="center|fill"
+
+        android:text="Addition"
+        android:textAlignment="center"
+        android:textColor="#9C5103"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:cornerRadius="25dp"
+        app:layout_columnWeight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449"
+        app:layout_rowWeight="1"
+        app:strokeColor="#9C5103"
+        app:strokeWidth="4dp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/butSub"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+
+        android:backgroundTint="#FAE0C9"
+        android:gravity="center|fill"
+
+        android:text="Subtraction"
+        android:textAlignment="center"
+        android:textColor="#9C5103"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:cornerRadius="25dp"
+        app:layout_columnWeight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658"
+        app:layout_rowWeight="1"
+        app:strokeColor="#9C5103"
+        app:strokeWidth="4dp"
+        tools:ignore="RtlCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
